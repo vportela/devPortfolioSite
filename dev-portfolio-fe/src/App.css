@@ -1,5 +1,21 @@
+.header { 
+  display: flex;
+  justify-content: space-between;
+}
+.my-name{
+  justify-self: flex-start;
+}
+
+.nav-options{ 
+  display: flex;
+  justify-content: space-between;
+  width: 150px
+}
+
 .App {
-  text-align: center;
+  background-color: #1E1E1E;
+  min-height: 100vh;
+  color: white;
 }
 
 .App-logo {
